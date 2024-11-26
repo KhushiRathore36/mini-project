@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qenara Wave</title>
+    
+    <link rel="stylesheet" href="khushi.css">
+</head>
+<body>
+    <div id="container">
+        <div id="login">
+            <div class="logo">
+                <!-- <img  src="https://wasavidesigns.com/wp-content/uploads/2023/10/sentient-logo-design.webp" alt=""> -->
+                <h1>Sentient</h1>
+            </div>
+              
+              <nav>
+                <a href="login.html">login</a>
+                <a href="register.html">Register</a>
+              </nav>
+              <div class="bar-1">
+                <div id="name" class="bar"><img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-webpage-small-icon/user-244.png" alt=""><input type="text" placeholder="name"></div>
+                <div id="email" class="bar"><img src="http://pluspng.com/img-png/email-icon-png-email-icon-image-122-2400.png" alt=""><input type="email" placeholder="E-mail"></div>
+                <div id="password" class="bar"><img src="http://pngimg.com/uploads/fingerprint/fingerprint_PNG82.png" alt=""><input type="password" placeholder="password"></div>
+              </div>
+              <button>Submit</button>
+              <div class="display">
+                <div class="line"></div>
+                <h3>or continue with</h3>
+                <div class="line"></div>
+              </div>
+              
+              <div class="con">
+                <button class="btn"><img src="https://tse3.mm.bing.net/th?id=OIP.AdzhkXtdEuGDv94QoKVmaAHaHa&pid=Api&P=0&h=180" alt=""><h6>Twitter</h6></button>
+                <button class="btn"><img src="https://clipground.com/images/facebook-logo-clipart-images-9.jpg" alt=""><h6>facebook</h6></button>
+                <button class="btn"><img src="https://image.similarpng.com/very-thumbnail/2020/06/Logo-google-icon-PNG.png" alt=""><h6>Google</h6></button>
+              </div>
+              
+        </div>
+        <div id="design"><img src="bg.jpg" alt=""></div>
+        
+    </div>
+</body>
+<script>
+  document.getElementById('swap-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    const container1 = document.getElementById('login');
+    const container2 = document.getElementById('design');
+
+    // Swap the innerHTML of the two containers
+    const tempContent = container1.innerHTML;
+    container1.innerHTML = container2.innerHTML;
+    container2.innerHTML = tempContent;
+  });
+
+
+</script>
+</html>

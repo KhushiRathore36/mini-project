@@ -1,0 +1,83 @@
+#container{
+    background-image: url('landing page.jpg');
+    padding:10px;
+     
+    height: 100vh; 
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment:fixed;
+}
+#container2{
+    background-image: url('last.webp');
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment:fixed;
+    display:flex;
+}
+body{
+    margin:0%;
+    padding:0%;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right:50px;
+    margin-top:30px;
+    
+}
+
+h1{
+    color: cornsilk;
+    font-size:90px;
+    
+}
+#name{
+    margin-left:35%; 
+     margin-top:190px; 
+    width:240px;
+    
+}
+p{
+    color:white;
+    
+}
+img{
+    height:75%;
+    width:50%;
+    margin-top:20px;
+    position:relative;
+    animation: robot 4s infinite;
+}
+.containerp{
+    
+    position:relative;
+     color:white;
+     width:fit-content;
+     font-size:25px;
+     overflow:hidden;
+     margin-top:90px;
+}
+
+
+@keyframes robot {
+    0% { 
+        top: 0; 
+    } 
+    50% { 
+        top: 100px; /* Adjust distance downward as needed */ 
+    }
+    100% { 
+        top: 0; 
+    }
+}
+.navigation-bar{
+    display:flex;
+    justify-content: center;
+    /* display:inline-block; */
+}
